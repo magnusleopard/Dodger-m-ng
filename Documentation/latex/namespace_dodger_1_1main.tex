@@ -1,0 +1,107 @@
+\hypertarget{namespace_dodger_1_1main}{}\section{Dodger.\+main Namespace Reference}
+\label{namespace_dodger_1_1main}\index{Dodger.\+main@{Dodger.\+main}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespace_dodger_1_1main_a4c06079e7a33bf58a26e3bcab04c612d}{reset} ()
+\item 
+def \hyperlink{namespace_dodger_1_1main_ad002f84c7d1646af7ac367a665eec672}{skoor} (score)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a5a2e204b9d9a091c33208dd3657e1307}{myfont} = pygame.\+font.\+Sys\+Font(\char`\"{}monospace\char`\"{}, 15)
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_aae789c71f775508744848c9b4163b416}{screen} = pygame.\+display.\+set\+\_\+mode(\mbox{[}800,600\mbox{]})
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a688c4b7dc0b19589a3f62d27a0233a7f}{clock} = pygame.\+time.\+Clock()
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_aada8d7b289e64fa2cd4da076de1f23c2}{tervist} = myfont.\+render(\char`\"{}Press S\+P\+A\+C\+E to begin.\char`\"{}, 10, muutujad.\+green)
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_ab3023da733d7bcce7908efc9e646a3d1}{tervist1} = myfont.\+render(\char`\"{}Press R to reset.\char`\"{}, 10, muutujad.\+green)
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_abc3f766e093308afeae4bb11717428ee}{kinni} = myfont.\+render(\char`\"{}Press S\+P\+A\+C\+E to exit.\char`\"{}, 10, muutujad.\+green)
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a4794605b0906db6c42412957da8c5913}{triangle\+\_\+sprite} = pygame.\+sprite.\+Group()
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a8ef3adbca26416fcae28a066e6435001}{all\+\_\+sprites} = pygame.\+sprite.\+Group()
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a9ce66d4a60e19c14f89b870a580099e4}{mine} = \hyperlink{class_dodger_1_1klassid_1_1_mine}{klassid.\+Mine}(random.\+randrange(0, 800),random.\+randrange(0, 100))
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_ab1f09b41f09bcf1417ed69012e847012}{alfa\+\_\+mine} = \hyperlink{class_dodger_1_1klassid_1_1_mine}{klassid.\+Mine}(-\/100,random.\+randrange(0, 100))
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a5c27661b1b9c13624a07f3757a3bd88a}{triangle} = \hyperlink{class_dodger_1_1klassid_1_1_triangle}{klassid.\+Triangle}(400, 555)
+\item 
+\hyperlink{namespace_dodger_1_1main_a53770c6e2fd58e07592f4ac4dca29689}{beginning} = True
+\item 
+\hyperlink{namespace_dodger_1_1main_a2c62876655c9247b65a382ebe35239a8}{running} = False
+\item 
+\hyperlink{namespace_dodger_1_1main_a13868600ce1e836d5d3e848a5932231d}{over} = False
+\item 
+tuple \hyperlink{namespace_dodger_1_1main_a6c470cdcf880300fb28ae58cf38bfb92}{lose} = myfont.\+render(\char`\"{}Game over!\char`\"{}, 1, muutujad.\+green)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespace_dodger_1_1main_a4c06079e7a33bf58a26e3bcab04c612d}{}\index{Dodger\+::main@{Dodger\+::main}!reset@{reset}}
+\index{reset@{reset}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}def Dodger.\+main.\+reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{namespace_dodger_1_1main_a4c06079e7a33bf58a26e3bcab04c612d}
+\hypertarget{namespace_dodger_1_1main_ad002f84c7d1646af7ac367a665eec672}{}\index{Dodger\+::main@{Dodger\+::main}!skoor@{skoor}}
+\index{skoor@{skoor}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{skoor}]{\setlength{\rightskip}{0pt plus 5cm}def Dodger.\+main.\+skoor (
+\begin{DoxyParamCaption}
+\item[{}]{score}
+\end{DoxyParamCaption}
+)}\label{namespace_dodger_1_1main_ad002f84c7d1646af7ac367a665eec672}
+
+
+\subsection{Variable Documentation}
+\hypertarget{namespace_dodger_1_1main_ab1f09b41f09bcf1417ed69012e847012}{}\index{Dodger\+::main@{Dodger\+::main}!alfa\+\_\+mine@{alfa\+\_\+mine}}
+\index{alfa\+\_\+mine@{alfa\+\_\+mine}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{alfa\+\_\+mine}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+alfa\+\_\+mine = {\bf klassid.\+Mine}(-\/100,random.\+randrange(0, 100))}\label{namespace_dodger_1_1main_ab1f09b41f09bcf1417ed69012e847012}
+\hypertarget{namespace_dodger_1_1main_a8ef3adbca26416fcae28a066e6435001}{}\index{Dodger\+::main@{Dodger\+::main}!all\+\_\+sprites@{all\+\_\+sprites}}
+\index{all\+\_\+sprites@{all\+\_\+sprites}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{all\+\_\+sprites}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+all\+\_\+sprites = pygame.\+sprite.\+Group()}\label{namespace_dodger_1_1main_a8ef3adbca26416fcae28a066e6435001}
+\hypertarget{namespace_dodger_1_1main_a53770c6e2fd58e07592f4ac4dca29689}{}\index{Dodger\+::main@{Dodger\+::main}!beginning@{beginning}}
+\index{beginning@{beginning}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{beginning}]{\setlength{\rightskip}{0pt plus 5cm}Dodger.\+main.\+beginning = True}\label{namespace_dodger_1_1main_a53770c6e2fd58e07592f4ac4dca29689}
+\hypertarget{namespace_dodger_1_1main_a688c4b7dc0b19589a3f62d27a0233a7f}{}\index{Dodger\+::main@{Dodger\+::main}!clock@{clock}}
+\index{clock@{clock}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{clock}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+clock = pygame.\+time.\+Clock()}\label{namespace_dodger_1_1main_a688c4b7dc0b19589a3f62d27a0233a7f}
+\hypertarget{namespace_dodger_1_1main_abc3f766e093308afeae4bb11717428ee}{}\index{Dodger\+::main@{Dodger\+::main}!kinni@{kinni}}
+\index{kinni@{kinni}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{kinni}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+kinni = myfont.\+render(\char`\"{}Press S\+P\+A\+C\+E to exit.\char`\"{}, 10, muutujad.\+green)}\label{namespace_dodger_1_1main_abc3f766e093308afeae4bb11717428ee}
+\hypertarget{namespace_dodger_1_1main_a6c470cdcf880300fb28ae58cf38bfb92}{}\index{Dodger\+::main@{Dodger\+::main}!lose@{lose}}
+\index{lose@{lose}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{lose}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+lose = myfont.\+render(\char`\"{}Game over!\char`\"{}, 1, muutujad.\+green)}\label{namespace_dodger_1_1main_a6c470cdcf880300fb28ae58cf38bfb92}
+\hypertarget{namespace_dodger_1_1main_a9ce66d4a60e19c14f89b870a580099e4}{}\index{Dodger\+::main@{Dodger\+::main}!mine@{mine}}
+\index{mine@{mine}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{mine}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+mine = {\bf klassid.\+Mine}(random.\+randrange(0, 800),random.\+randrange(0, 100))}\label{namespace_dodger_1_1main_a9ce66d4a60e19c14f89b870a580099e4}
+\hypertarget{namespace_dodger_1_1main_a5a2e204b9d9a091c33208dd3657e1307}{}\index{Dodger\+::main@{Dodger\+::main}!myfont@{myfont}}
+\index{myfont@{myfont}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{myfont}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+myfont = pygame.\+font.\+Sys\+Font(\char`\"{}monospace\char`\"{}, 15)}\label{namespace_dodger_1_1main_a5a2e204b9d9a091c33208dd3657e1307}
+\hypertarget{namespace_dodger_1_1main_a13868600ce1e836d5d3e848a5932231d}{}\index{Dodger\+::main@{Dodger\+::main}!over@{over}}
+\index{over@{over}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{over}]{\setlength{\rightskip}{0pt plus 5cm}Dodger.\+main.\+over = False}\label{namespace_dodger_1_1main_a13868600ce1e836d5d3e848a5932231d}
+\hypertarget{namespace_dodger_1_1main_a2c62876655c9247b65a382ebe35239a8}{}\index{Dodger\+::main@{Dodger\+::main}!running@{running}}
+\index{running@{running}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{running}]{\setlength{\rightskip}{0pt plus 5cm}Dodger.\+main.\+running = False}\label{namespace_dodger_1_1main_a2c62876655c9247b65a382ebe35239a8}
+\hypertarget{namespace_dodger_1_1main_aae789c71f775508744848c9b4163b416}{}\index{Dodger\+::main@{Dodger\+::main}!screen@{screen}}
+\index{screen@{screen}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{screen}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+screen = pygame.\+display.\+set\+\_\+mode(\mbox{[}800,600\mbox{]})}\label{namespace_dodger_1_1main_aae789c71f775508744848c9b4163b416}
+\hypertarget{namespace_dodger_1_1main_aada8d7b289e64fa2cd4da076de1f23c2}{}\index{Dodger\+::main@{Dodger\+::main}!tervist@{tervist}}
+\index{tervist@{tervist}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{tervist}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+tervist = myfont.\+render(\char`\"{}Press S\+P\+A\+C\+E to begin.\char`\"{}, 10, muutujad.\+green)}\label{namespace_dodger_1_1main_aada8d7b289e64fa2cd4da076de1f23c2}
+\hypertarget{namespace_dodger_1_1main_ab3023da733d7bcce7908efc9e646a3d1}{}\index{Dodger\+::main@{Dodger\+::main}!tervist1@{tervist1}}
+\index{tervist1@{tervist1}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{tervist1}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+tervist1 = myfont.\+render(\char`\"{}Press R to reset.\char`\"{}, 10, muutujad.\+green)}\label{namespace_dodger_1_1main_ab3023da733d7bcce7908efc9e646a3d1}
+\hypertarget{namespace_dodger_1_1main_a5c27661b1b9c13624a07f3757a3bd88a}{}\index{Dodger\+::main@{Dodger\+::main}!triangle@{triangle}}
+\index{triangle@{triangle}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{triangle}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+triangle = {\bf klassid.\+Triangle}(400, 555)}\label{namespace_dodger_1_1main_a5c27661b1b9c13624a07f3757a3bd88a}
+\hypertarget{namespace_dodger_1_1main_a4794605b0906db6c42412957da8c5913}{}\index{Dodger\+::main@{Dodger\+::main}!triangle\+\_\+sprite@{triangle\+\_\+sprite}}
+\index{triangle\+\_\+sprite@{triangle\+\_\+sprite}!Dodger\+::main@{Dodger\+::main}}
+\subsubsection[{triangle\+\_\+sprite}]{\setlength{\rightskip}{0pt plus 5cm}tuple Dodger.\+main.\+triangle\+\_\+sprite = pygame.\+sprite.\+Group()}\label{namespace_dodger_1_1main_a4794605b0906db6c42412957da8c5913}
